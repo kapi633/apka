@@ -1,0 +1,974 @@
+* {
+    margin: auto;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(18, 19, 20);
+    
+}
+
+.sign-up-form1 {
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    margin: 10% auto 0;
+    text-align: center;
+    box-shadow: 0 0 100px 0 #0182cc;
+    transition: 0.5s ease-in-out;
+    border-radius: 20px;
+}
+
+.sign-up-form1 h1 {
+    color: rgb(18, 19, 20);
+    animation: animate 18s ease-in-out infinite;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.input-box1 {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 280px;
+    border: 1px #4acfb9 solid;
+    transition: ease-in-out 0.5s;
+    outline: none;
+
+}
+#przyc1, #przyc2 {
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+#przyc2:hover {
+    font-size: 18px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.582);
+}
+#przyc1:hover {
+    font-size: 18px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.582);
+}
+
+.signup-btn1 {
+    background: linear-gradient(100deg, #4acfb9, #0137cc);
+}
+
+
+.usericon1 .fa {
+    font-size: 70px;
+    background: linear-gradient(100deg, #4acfb9, #0137cc);
+    border-radius: 60px;
+    background-size: 120%;
+}
+
+.form1 input {
+    cursor: text;
+
+}
+
+.left-arrow1, .left-arrow2 {
+    margin-right: 300px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.znaczek1 input {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 10px;
+}
+.calarejestracja{
+    width: 100%;
+    height: 100%;
+    background: rgb(18, 19, 20);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.calelogowanie{
+    width: 100%;
+    height: 100%;
+    background: rgb(18, 19, 20);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.calyproblem{
+    width: 100%;
+    height: 100%;
+    background: rgb(18, 19, 20);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+#zalog,#reje{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sign-up-form {
+    width: 300px;
+    box-shadow: 0 0 100px 0 #01cc8f;
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    transition: ease-in-out 0.5s;
+    border-radius: 20px;
+}
+
+.sign-up-form h1 {
+    color: rgb(18, 19, 20);
+    background-size: 1000%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 280px;
+    border: 1px #83f441 solid;
+    outline: none;
+    transition: ease-in-out 0.5s;
+}
+
+
+
+#button, #przyc {
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+#button:hover, #przyc:hover {
+    font-size: 18px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.582);
+}
+
+.signup-btn {
+    background: linear-gradient(100deg, #5acf4a, #01cccc);
+}
+
+.google-btn {
+    background: linear-gradient(100deg, #5acf4a, #01cccc);
+}
+
+.google-btn .fa {
+    margin-right: 5px;
+
+}
+
+.usericon .fa {
+    font-size: 70px;
+    background: linear-gradient(100deg, #5acf4a, #01cccc);
+    border-radius: 60px;
+    background-size: 120%;
+}
+
+.warning-form1 {
+    width: 300px;
+    box-shadow: 0 0 100px 0 #ff1100;
+    background: #fff;
+    padding: 20px;
+    margin: 3% auto 0;
+    text-align: center;
+    transition: ease-in-out 0.5s;
+    border-radius: 20px;
+    
+}
+
+.warning-form1 h1 {
+    color: rgb(18, 19, 20);
+    background-size: 1000%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.warningicon .fa-solid {
+    font-size: 70px;
+    background: linear-gradient(100deg, #ff1100, #ff7300);
+    border-radius: 60px;
+    background-size: 120%;
+}
+.warning-btn1 {
+    background: linear-gradient(100deg, #ff1100, #ff8f34);
+}
+.input-box2,#opisproblemu {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 280px;
+    border: 1px #ff1100 solid;
+    outline: none;
+    transition: ease-in-out 0.5s;
+}
+textarea{
+    resize: none;
+}
+#te{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#plik{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.form input {
+    cursor: text;
+
+}
+
+.left-arrow {
+    margin-right: 300px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.checkb input {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.or {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#okozam {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 140px;
+    top: -236px;
+    cursor: pointer;
+}
+
+#okoot {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 112px;
+    top: -236px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#okozam1 {
+    color: black;
+    font-size: 20px;
+    position:relative;
+    left: 138px;
+    top: -116px;
+    cursor: pointer;
+}
+
+#okoot1 {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+    top: -116px;
+    cursor: pointer;
+    visibility: hidden;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(90deg,#5acf4a, #01cccc);
+    animation: animacja 8s linear infinite;
+    background-size: 1000%;
+    box-shadow: 0 -15px 100px 0 rgba(255, 255, 255, 0.527);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes animacja {
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 100%;
+    }
+    100%{
+        background-position: 0%;
+    }
+}
+.banner{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+}
+.przyciski{
+    width: 200px;
+    height: 75px;
+    box-shadow: 0 6px 4px rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: ease-in-out 0.7s;
+}
+.przyciski>.fa-solid{
+    position: relative;
+    top: 0;
+    
+}
+#ikona{
+    transition: ease-in-out 1s;
+    left: -75px;
+}
+#ikona2{
+    transition: ease-in-out 1s;
+    left: -70px;
+}
+#ikona3{
+    transition: ease-in-out 1s;
+    left: -75px;
+}
+#ikona4{
+    transition: ease-in-out 1s;
+    left: -65px;
+}
+
+#tekst1, #tekst2, #tekst3, #tekst4{
+    color: black;
+    font-size: 30px;
+    transition: ease-in-out 0.7s;
+    opacity: 0;
+    padding-left: 0;
+    font-weight: bolder;
+}
+#tekst1{
+    text-wrap: wrap;
+}
+
+#logo{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 70px;
+    height: auto;
+}
+
+.main1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.zakup, .zakup2{
+    width: 25%;
+    height: 200px;
+    
+}   
+.zakup2{
+    margin-top: 100px;
+}
+.logo1,.logo2,.logo3,.logo4,.logo5,.logo6,.logo7,.logo8{
+    clip-path: polygon(96% 1%, 15% 60%, 37% 61%, 4% 98%, 77% 49%, 51% 50%);
+    background: linear-gradient(90deg,#5acf4a, #01cccc);
+    animation: animacja 8s linear infinite;
+    background-size: 1000%;
+    width: 220px;
+    height: 240px;
+    transition: ease-in-out 1s;
+    position: relative;
+    top: 0;
+}
+#obraz1,#obraz2,#obraz3,#obraz4{
+    width: 130px;
+    height: auto;
+    position: relative;
+    top: -230px;
+    left: 170px;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+#obraz7,#obraz8{
+    width: 175px;
+    height: auto;
+    position: relative;
+    top: -220px;
+    left: 145px;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+#obraz6{
+    width: 160px;
+    height: auto;
+    position: relative;
+    top: -230px;
+    left: 160px;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+#obraz5{
+    width: 190px;
+    height: auto;
+    position: relative;
+    top: -210px;
+    left: 140px;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+
+.content{
+    width: 60%;
+    height: auto;
+}
+.img-slider{
+    width: 40%;
+    height: auto;
+}
+.mainimg{
+    width: 350px;
+    height: 400px;
+    border: 2px solid white;
+    position: relative;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.082);
+    border-radius: 20px;
+}
+.bankmain{
+    width: 200px;
+    height: auto;
+    position: relative;
+    top: 35px;
+    left: 80px;
+}
+#bankmain5{
+    width: 200px;
+    height: auto;
+    position: relative;
+    top: 115px;
+    left: 80px;
+}
+#bankmain6,#bankmain7,#bankmain8{
+    width: 200px;
+    height: auto;
+    position: relative;
+    top: 75px;
+    left: 80px;
+}
+.l,.r{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+}
+.r{
+    top: 245px;
+    left: 575px;
+}
+.l{
+    top: -340px;
+    left: 150px;
+}
+.r:hover,.l:hover{
+    box-shadow: 0 0 10px white inset ;
+    border: 2px solid greenyellow;
+}
+.second{
+    width: 100px;
+    height: 130px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.082);
+    position: relative;
+    top: 50px;
+    left: 115px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+#scdbank1,#scdbank5,#scdbank9,#scdbank13,#scdbank17,#scdbank21,#scdbank25,#scdbank29{
+    border: 2px solid #5acf4a;
+}
+.content{
+    margin-top: 20px;
+    border-left: 2px solid white;
+}
+.content h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 0 0 20px #01cc8f;
+}
+.content>ul{
+    color: white;
+    font-size: 20px;
+    list-style-type: square;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.content>ul>li{
+    margin-top: 7px;
+    text-shadow: 0 0 10px#01cc8f;
+}
+.content>ul>li ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content>ul>li>ul>li{
+    color: black;
+    margin-top: 7px;
+    list-style-type: none;
+    background: linear-gradient(90deg,#5acf4a, #01cccc);
+    animation: animacja 10s linear infinite;
+    background-size: 1000%;
+    border-radius: 5px;
+    backface-visibility: 50%;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: relative;
+    right: 50px;
+    
+}
+.li1{
+    left: -140px;
+}
+.li2{
+    left: -230px;
+}
+.li3{
+    left: -320px;
+}
+.li4{
+    left: -410px;
+}
+.li5{
+    left: -95px;
+}
+.li6{
+    left: -265px;
+}
+.li7{
+    left: -435px;
+}
+.li8{
+    left: -40px;
+}
+.li9{
+    left: -100px;
+}
+.li10{
+    left: -160px;
+}
+.li11{
+    left: -220px;
+}
+.li12{
+    left: -70px;
+}
+.li13{
+    left: -190px;
+}
+.li14{
+    left: -45px;
+}
+.li15{
+    left: -115px;
+}
+.li16{
+    left: -53px;
+}
+.li17{
+    left: -140px;
+}
+.li18{
+    left: -348px;
+}
+.li19{
+    left: -335px;
+}
+.li20{
+    left: -555px;
+}
+.li21{
+    left: -338px;
+}
+.li{
+    left: -115px;
+}
+.li22{
+    left: -170px;
+}
+.li23{
+    left: -500px;
+}
+#koszyk,#koszyk2,#koszyk3,#koszyk4,#koszyk5,#koszyk6,#koszyk7,#koszyk8{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    width: 320px;
+    height: 80px;
+    font-size: 25px;
+    transition: ease-in-out 0.5s;
+    background: none;
+    border: 3px solid white;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.cena{
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 10px#01cc8f;
+}
+#alercik{
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #ff1100;
+    border-radius: 10px;
+    box-shadow: 0 0 60px 0 black;
+    position: absolute;
+    top: -100%;
+    left: 660px;
+    font-size: 20px;
+    text-align: center;
+    
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+#alercik>p{
+    margin-top: 30px;
+}
+#okbtn, #okbtn2{
+    width: 80px;
+    height: 40px;
+    margin-top: 30px;
+    background: linear-gradient(100deg, #ff1100, #ff7300);
+    animation: animacja 3s linear infinite;
+    background-size: 1000%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    transition: 1s ease-in-out;
+    font-size: 20px;
+}
+.powerbank1,.powerbank2,.powerbank3,.powerbank4,.powerbank5,.powerbank6,.powerbank7,.powerbank8{
+    width: 100%;
+    height: calc(100% - 150px);
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    z-index: 1;
+    
+}
+#koszykcount{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    color: black;
+    padding-top: 3px;
+    font-weight: 700;
+    transition-delay: 0s;
+    position:absolute;
+    top: 45px;
+    right: 590px;    
+    font-size: 15px;
+    z-index: 0;
+    transition: ease-in-out 1s;
+    text-align: center;
+}
+.koszykk{
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 19, 20, 0.658);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    z-index: 2;
+    transition: 0.5s ease-in-out;
+}
+.calykoszyk{
+    width: 95%;
+    height: calc(95% - 100px);
+    background-color: rgb(51, 51, 51);
+    margin-top: 100px;
+    box-shadow: 0 0 70px rgba(255, 255, 255, 0.575);
+    border-radius: 50px;
+    gap: 10px;
+    display: flex;
+    border: 3px solid #5acf4a;
+    
+}
+
+.kontener{
+    width: calc(70% - 5px);
+    height: 100%;
+    overflow: auto;
+}
+.kupno{
+    width: calc(30% - 5px);
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    border-left: 5px solid #5acf4a;
+    position: sticky;
+    top: 0;
+}
+#tekstkupna{
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+#zamknij{
+    width: 150px;
+    height: 80px;
+    background: linear-gradient(90deg,#5acf4a, #01cccc);
+    animation: animacja 10s linear infinite;
+    background-size: 1000%;
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 75px);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+}
+#zamknij:hover{
+    box-shadow: 0 0 40px white;
+}
+.przedmiotwkoszyku{
+    width: calc(100% - 65px);
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.obrazwkoszyku{
+    width: 90px;
+    height: auto;
+    margin-left: 10px;
+}
+.przedmiotwkoszyku>input{
+    width: 40px;
+    height: 50px;
+    
+}
+#zwieksz,#zmniejsz,
+#zwieksz2,#zmniejsz2,
+#zwieksz3,#zmniejsz3,
+#zwieksz4,#zmniejsz4,
+#zwieksz5,#zmniejsz5,
+#zwieksz6,#zmniejsz6,
+#zwieksz7,#zmniejsz7,
+#zwieksz8,#zmniejsz8{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    
+    transition: 0.7s ease-in-out;
+    cursor: pointer;
+}
+#zwieksz:hover,#zmniejsz:hover,
+#zwieksz2:hover,#zmniejsz2:hover,
+#zwieksz3:hover,#zmniejsz3:hover,
+#zwieksz4:hover,#zmniejsz4:hover,
+#zwieksz5:hover,#zmniejsz5:hover,
+#zwieksz6:hover,#zmniejsz6:hover,
+#zwieksz7:hover,#zmniejsz7:hover,
+#zwieksz8:hover,#zmniejsz8:hover{
+    background: white;
+    color: black;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+.fa-sort-up{
+    padding-top: 8px;
+}
+.fa-caret-down{
+    padding-bottom: 8px;
+}
+.kontener p:nth-child(2){
+    width: 50%;
+    text-shadow: 0 0 20px rgb(184, 184, 184);
+}
+.kontener p:nth-child(3){
+    text-shadow: 0 0 20px rgb(184, 184, 184);
+}
+.kontener p:nth-child(5){
+    text-shadow: 0 0 10px rgb(255, 0, 0);
+}
+.fa-trash{
+    color:red;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+#kup{
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    background: linear-gradient(90deg,#5acf4a, #01cccc);
+    animation: animacja 10s linear infinite;
+    background-size: 1000%;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: .7s ease-in-out;
+}
+#kup:hover{
+    box-shadow:  0 0 40px white;
+}
+.alertzakupu{
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 0 30px black;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50%;
+    left: calc(50% - 250px);
+    transition: 0.5s ease-in-out;
+    flex-direction: column;
+    border-radius: 20px;
+}
+#zakupalert{
+    padding-top: 30px;
+}
+#okbtn2{
+    background: linear-gradient(90deg, #01cc8f, #ffee00);
+    background-size: 1000%;
+    margin-bottom: 20px;
+    transition: .7s ease-in-out;
+    font-size: 20px;
+}
+#okbtn2:hover, #okbtn:hover{
+    box-shadow: 0 0 20px black;
+}
+#emptytrash{
+    color: white;
+    position: absolute;
+    top: 450px;
+    font-size: 40px;
+    left: 450px;
+    opacity: 30%;
+    visibility: visible;
+}
+.tresc{
+    width: 100%;
+    height: 400px;
+    background: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.info{
+    width: calc((90% / 3) - 10px);
+    background: rgba(255, 255, 255, 0.055);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    transition: 0.7s ease-in-out;
+    border-radius: 20px;
+}
+.fa-truck,.fa-credit-card,.fa-tag{
+    font-size: 60px;
+    color: white;
+    position: relative;
+    top: calc(50% - 60px);
+    transition: 0.7s ease-in-out;
+}
+.info>p,.info2>p,.info3>p{
+    position: relative;
+    bottom: 60px;
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+    width: 100%;
+    height: 130px;
+    padding-top: 20px;
+}
+.info2>p{
+    padding-top: 50px;
+}
+.info3>p{
+    padding-top: 50px;
+}
+footer{
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.144);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.555);
+    text-shadow:  0 0 10px black;
+}
