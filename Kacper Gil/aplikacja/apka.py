@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
+#komentarz
 def klik():
     messagebox.showinfo("Info","Witaj w Tkinter!")
 okno = Tk()
